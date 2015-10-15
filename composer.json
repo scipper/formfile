@@ -1,0 +1,17 @@
+{
+    "name": "scipper/formfile",
+    "type": "library",
+    "description": "parses the $_FILES array into an object.",
+    "keywords": ["scipper","form","files"],
+    "homepage": "http://www.myscipper.de",
+    "license": "GNU GPLv2",
+    "authors": [
+        {"name": "Steffen Kowalski", "email": "sk@traiwi.de"}
+    ],
+    "require": {
+        "php": ">=5.4",
+    },
+    "autoload": {
+        "psr-4": { "scipper\\Formfile\\": "src/" }
+    }
+}

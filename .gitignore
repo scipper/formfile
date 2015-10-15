@@ -1,0 +1,12 @@
+/bin/
+/build/
+/cache/
+/logs/*
+/nbproject/*
+/nbproject/private/
+/.settings/*
+.*
+!/.gitignore
+*.log
+*~
+!.htaccess
