@@ -7,6 +7,7 @@ parses the $_FILES array into an object
 <?php
 	
 use scipper\Formfile\Formparser;
+use scipper\Formfile\FormfileException;
 	
 $formparser = new Formparser();
 $formparser->parse();
