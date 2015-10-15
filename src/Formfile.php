@@ -155,7 +155,7 @@ class Formfile {
 			
 		$absolute = $path.$filename;
 		if(file_exists($absolute)) {
-			throw new FormfileException("file '" . $absolute . "' exists.");
+			error_log("file '" . $absolute . "' will be overwritten.");
 		}
 			
 		if(!move_uploaded_file($this->getTmpName(), $absolute)) {
